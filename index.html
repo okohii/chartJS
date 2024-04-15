@@ -8,8 +8,11 @@
 </head>
 <body>
   <div>
+    <h1>Gráfico de Linha por horário</h1>
     <canvas id="linhas"></canvas>
     <br><br>
+
+    <h1>Gráfico de coluna por mês</h1>
     <canvas id="barras"></canvas>
   </div>
 </body>
@@ -87,3 +90,22 @@ new Chart(ltx, {
   });
   
 </script>
+
+<style>
+
+  canvas {
+    width: 50%;
+    height: 50%;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+</style>
